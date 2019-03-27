@@ -1,0 +1,19 @@
+{
+  "name": "gamesbyreact",
+  "version": "1.0.0",
+  "description": "complete a game by React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiexuanzheng123/gamesByReact.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiexuanzheng123/gamesByReact/issues"
+  },
+  "homepage": "https://github.com/xiexuanzheng123/gamesByReact#readme"
+}
