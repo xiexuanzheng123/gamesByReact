@@ -41,4 +41,16 @@ state是可变的，而props不可以改变，只可以返回新的
 
 ----
 7 关于select标签选中问题  
-原生select使用在option中添加seleceted选项来确定被选中的状态， 而React并不会这么做，而是在select标签上使用`defaultValue`属性来决定
+原生select使用在option中添加seleceted选项来确定被选中的状态， 而React并不会这么做，而是在select标签上使用`defaultValue`属性来决定 
+
+
+----
+8 url后面的#？&  
+`#(Hash)`代表网页中的一个位置，右面的字符，就是该位置的标识符，浏览器会自动将后面的位置滚动到可视区域，为网页指定标识符，有两个方法，一是使用锚点，`<a name="print"></a> `, 另一个使用id  
+http请求不包括#，#是指导浏览器动作的，对服务器完全没用，第一个#号后面的字符，会被浏览器解析成位置标识符，改变#不触发网页重载，但会改变浏览器的访问历史记录，
+URL后面加？，说明不调用缓存的内容，会重新加载
+
+---
+9 使用context，可以避免通过中间元素传递props，  
+`const themeContext = React.createContext('light');`themeContext.Provider
+
