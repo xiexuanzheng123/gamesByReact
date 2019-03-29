@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Clock from './react/Hoist';
+import Clock from './react/extends';
 import * as serviceWorker from './serviceWorker';
 
 
